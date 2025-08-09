@@ -1,3 +1,5 @@
+![](./assets/logo.png)
+
 # Synergy Core Library
 
 Core building blocks for Go services: context propagation, time utilities, structured logging, retries, IDs, caching, metrics, events, health checks, validation, and more. Stdlib-first, dependency-light, and adapter-friendly.
