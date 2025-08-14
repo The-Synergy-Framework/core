@@ -2,6 +2,13 @@ package chrono
 
 import "time"
 
+const (
+	FiveMinutes    = 5 * time.Minute
+	FifteenMinutes = 15 * time.Minute
+	Day            = 24 * time.Hour
+	Week           = 7 * Day
+)
+
 // Now returns the current time using the Default clock.
 func Now() time.Time { return Default.Now() }
 
